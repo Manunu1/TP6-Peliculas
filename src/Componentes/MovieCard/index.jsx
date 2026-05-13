@@ -1,0 +1,13 @@
+const MovieCard = () => 
+{
+
+
+
+
+return 
+(
+<>
+</>
+);
+
+}
