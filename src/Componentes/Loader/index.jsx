@@ -4,8 +4,7 @@ const Loader = () =>
 
 
 
-return 
-(
+return(
 <>
 </>
 );

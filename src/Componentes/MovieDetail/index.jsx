@@ -7,8 +7,7 @@ const MovieDetail = () =>
 
 
 
-return 
-(
+return(
 <>
 </>
 );

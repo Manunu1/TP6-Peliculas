@@ -7,8 +7,7 @@ const MovieList = () =>
 
 
 
-return 
-(
+return(
 <>
 </>
 );
