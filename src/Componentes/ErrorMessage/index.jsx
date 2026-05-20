@@ -1,4 +1,4 @@
-const ErrorMessage = () => 
+const ErrorMessage = ({error}) => 
 {
 
 
@@ -6,7 +6,9 @@ const ErrorMessage = () =>
 
 return(
 <>
+    <p>{error}</p>
 </>
 );
 
 }
+export default ErrorMessage;

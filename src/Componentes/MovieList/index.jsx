@@ -1,15 +1,21 @@
+import MovieCard from "../MovieCard";
 
-// Poster, titulo, año y tipo (enum)
+const MovieList = ({ peliculas }) => {
 
-const MovieList = () => 
-{
+  return (
+    <div className="movie-list">
 
+      {peliculas.map((pelicula) => (
 
+        <MovieCard
+          key={pelicula.imdbID}
+          pelicula={pelicula}
+        />
 
+      ))}
 
-return(
-<>
-</>
-);
+    </div>
+  );
+};
 
-}
+export default MovieList;
